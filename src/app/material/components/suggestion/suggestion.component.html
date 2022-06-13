@@ -1,0 +1,20 @@
+<p>PetNames.json</p>
+<mat-form-field
+  style="width: 100%"
+  class="example-form-field"
+  appearance="fill"
+>
+  <mat-label>Find your Pet Names</mat-label>
+  <input
+    matInput
+    type="text"
+    placeholder="Typing..."
+    autocomplete="off"
+    (keydown.enter)="onEnter()"
+    [formControl]="formControl"
+    spellcheck="false"
+  />
+  <div class="text-predict-wrapper">
+    <div class="text-predict">{{ textPredict }}</div>
+  </div>
+</mat-form-field>

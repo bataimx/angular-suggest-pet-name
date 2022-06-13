@@ -1,0 +1,11 @@
+.text-predict {
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  color: gray;
+  z-index: -9;
+}
+.text-predict-wrapper {
+  white-space: nowrap;
+  overflow: hidden;
+}
